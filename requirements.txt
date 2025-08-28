@@ -1,0 +1,10 @@
+uvicorn 
+fastapi
+python-dotenv
+langchain-community
+sentence-transformers
+onnxruntime==1.19.2
+chromadb
+spacy
+huggingface_hub
+rank_bm25
