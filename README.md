@@ -49,7 +49,11 @@ Web/Backend: FastAPI, aiohttp, aiogram
 docker buildx build --platform linux/amd64 -t ddrxgd/llm-app-ddrxg:amd64 .
 ```
 
-Для локального запуска
+```
+docker buildx build -t ddrxgd/llm-app-ddrxg:latest .
+```
+
+Для запуска:
 ```
 docker run -d --name llm-app -p 8000:8000 ddrxgd/llm-app-ddrxg:amd64
 ```
