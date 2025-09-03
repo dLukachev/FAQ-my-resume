@@ -2,7 +2,7 @@ from langchain.schema import Document
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import Chroma
 
-file_path = "/Users/ddrxg/Code/LLM-app-public/src/data/data.txt"
+file_path = "/Users/ddrxg/Code/LLM-app-public/src/build_data/data.txt"
 
 # Функция для определения типа чанка по первой строке
 def parse_chunk(chunk_text):
